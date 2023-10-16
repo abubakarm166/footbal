@@ -79,6 +79,9 @@ h1{
     color: white;
     font-family:Sans Serif ;
 }
+.fir{
+    justify-content: space-between !important;
+}
 @media(max-width:991px){
     .list2{
         justify-content: center !important;
