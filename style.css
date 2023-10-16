@@ -2,6 +2,7 @@ body{
     background-image: url(Sobreposição.png);
     background-repeat: no-repeat;
     background-position: center;
+    overflow-x: hidden;
 }
 .head{
     top: 0px;
@@ -81,6 +82,44 @@ h1{
 }
 .fir{
     justify-content: space-between !important;
+}
+.scrol{
+    display: flex !important;
+	align-items: center !important;
+	column-gap: 28px !important;
+	overflow-x: scroll !important;
+	scroll-snap-type:x mandatory !important;
+}
+.scrol-itm{
+    background-color:black !important;
+    scroll-snap-align: center !important;
+	/* min-width: 20%; */
+   min-width: 250px !important;
+    border-radius: 10px !important;
+    /* border: 1px solid white !important; */
+}
+.bloo{
+    margin-left: 0px !important;
+}
+
+.uef{
+    /* padding-top: 7px; */
+    font-size: 9px !important;
+    width: 100% !important;
+    /* border: 1px solid blue; */
+    padding-bottom: 0px !important;
+    /* padding-left: 2px; */
+    font-weight: 700 !important;
+}
+.colu{
+    display: flex;
+    flex-direction: row;
+}
+.igg{
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
 }
 @media(max-width:991px){
     .list2{
