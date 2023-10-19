@@ -104,9 +104,10 @@ h1.sec{
     height: 100%;
 }
 .it{
-    padding-top: 8px;
+    /* padding-top: 8px; */
     font-size: 18px !important;
     display: flex;
+    
     flex-direction: row;
     color: white;
     font-family:Sans Serif ;
@@ -203,7 +204,8 @@ h1.sec{
   padding-top: 3px !important;
   padding-bottom: 3px !important;
   padding-right: 5px !important;
-  width: 80%;
+  /* width: 80%; */
+  padding: 5px 24px !important;
   border: none;
 }
 /* .view{
@@ -229,6 +231,9 @@ h1.find{
     /* margin-top: 20px; */
     height: auto;
 }
+.try_it{
+    display: flex;
+}
 @media(max-width:991px){
     .list2{
         justify-content: center !important;
@@ -245,5 +250,8 @@ h1.find{
     }
     .login{
         margin-bottom: 10px;
+    }
+    .it{
+        
     }
 }
