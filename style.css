@@ -8,24 +8,24 @@ body{
     top: 0px;
     left: 0px;
     /* padding-bottom: 100px; */
-    background-position: center;
+
     background-repeat: no-repeat;
     background-image:url(soccer-football-players-red-blue-team-competition-sport-stadium\ 1.png) ;
 }
 .girl{
-    
-    width: 80% !important;
-    height: auto !important;
+    width: auto !important;
+    /* width: 80% !important; */
     border: 2px solid #06A83B;
-    /* position: absolute; */
     object-fit: cover;
     border-radius: 50%;
    position: inherit;
-   /* rotate: -45deg; */
 
 }
+.first-text{
+    font-size: 70px !important;
+}
 .imgg{
-    
+    /* width: 100% !important; */
 
     background-image: url(Ellipse\ 24.png);
     background-size: contain;
@@ -85,9 +85,7 @@ h1{
     font-family: Sans Serif;
     color: white !important;
 }
-.two{
-    /* justify-content: space-evenly; */
-}
+
 h1.sec{
     font-size: 30px !important;
     letter-spacing: 2px;
@@ -99,7 +97,6 @@ h1.sec{
     font-weight: 600 !important;
 }
 .oo{
-
     width: 100%;
     height: 100%;
 }
@@ -107,7 +104,6 @@ h1.sec{
     /* padding-top: 8px; */
     font-size: 18px !important;
     display: flex;
-    
     flex-direction: row;
     color: white;
     font-family:Sans Serif ;
@@ -220,24 +216,35 @@ h1.find{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-image: url(Ellipse\ 26.png);
     justify-content:center !important;
     align-items: center !important;
+    background-image: url(Ellipse\ 26.png);
+
     
 }
+
 .back img{
     filter: drop-shadow(0px  10px  10px #06A83B);
     width: 80%;
     /* margin-top: 20px; */
     height: auto;
 }
+.fire{
+    display: flex; 
+    flex-direction: row;
+}
 .try_it{
     display: flex;
+    justify-content: space-between;
+
 }
 @media(max-width:991px){
     .list2{
         justify-content: center !important;
     } 
+    /* .girl{
+        width: 60% !important;
+    } */
     .butn{
      
         justify-content: center;
@@ -248,10 +255,63 @@ h1.find{
         /* justify-content: center; */
         align-items: center;
     }
+    .back{
+        background-image: none;
+    }
     .login{
         margin-bottom: 10px;
     }
+    .first-text{
+        font-size: 50px !important;
+    }
+}
+@media(max-width:767px){
+    .first-text{
+        font-size: 70px !important;
+    }
+        .girl{
+        width: 80% !important;
+    }
+    .two{
+        padding-left: 30px !important;
+    }
+    .back{
+        background-image: url(Ellipse\ 26.png);
+
+    }
+}
+@media(max-width:576px){
+    /* .viewall{
+        font-size: 15px;
+        display: inline-flex;
+        font-weight: 600;
+    } */
+    .first-text{
+        font-size: 50px !important;
+        padding-top: 20px !important;
+    }
+    
+}
+@media(max-width:428px){
     .it{
-        
+        font-size: 15px !important;
+    }
+  }
+  @media(max-width:408px){
+    .it{
+        font-size: 13px !important;
+    }
+  }
+  @media(max-width:395px){
+    .it{
+        font-size: 10px !important;
+    }
+  }
+@media(max-width:366px){
+  .viewall{
+    /* display: none; */
+        font-size: 14px !important;
+        /* display: inline-flex; */
+        font-weight: 600;
     }
 }
